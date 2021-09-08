@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+import { Container, Grid } from '@material-ui/core';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import Profile from './components/Profile/Profile';
+import Projects from './pages/Projects/Projects';
+import Resume from './pages/Resume/Resume';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container className={'top-margin'}>
+      <Grid container spacing={5}>
+        <Grid item xs={12} sm={8} md={5} lg={4}>
+          <Profile />
+        </Grid>
+        <Grid item xs>
+          <BrowserRouter>
+            <Header />
+            <Switch>
+              <Route path="/projects">
+                <Projects />
+              </Route>
+              <Route path="/">
+                <Resume />
+              </Route>
+            </Switch>
+          </BrowserRouter>
+          <Footer />
+        </Grid>
+      </Grid>
+    </Container>
   );
 }
 
