@@ -1,6 +1,6 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './Header.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   Container,
   Button,
@@ -25,9 +25,7 @@ import myData from '../../utilities/myData';
 import CustomButton from '../Button/CustomButton';
 
 const Header = (props) => {
-  /* If the props exists, then fetch prop.location, if the
-  props.location exists, fetch props.location.pathname */
-  const pathName = props?.location?.pathName;
+  const pathName = props.location && props.location.pathname;
 
   return (
     <Navbar expand="lg" sticky="top" className="header">
@@ -38,7 +36,7 @@ const Header = (props) => {
       </Nav.Link>
       <Navbar.Toggle />
       <Navbar.Collapse>
-        <Nav>
+        <Nav className="header_left">
           {/* Resume link */}
           <Nav.Link
             as={NavLink}
@@ -47,15 +45,15 @@ const Header = (props) => {
           >
             Resume
           </Nav.Link>
-          {/* Portfolio link */}
+          {/* projects link */}
           <Nav.Link
             as={NavLink}
-            to="/portfolio"
+            to="/projects"
             className={
-              pathName === '/portfolio' ? 'header_link_active' : 'header_link'
+              pathName === '/projects' ? 'header_link_active' : 'header_link'
             }
           >
-            Portfolio
+            Projects
           </Nav.Link>
         </Nav>
         <div className="header_right">

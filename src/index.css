@@ -8,7 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #fafafa;
   overflow: hidden;
-  /* background: url(); */
+  background: url('./assets/images/img1.jpg');
 }
 
 code {
