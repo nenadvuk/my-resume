@@ -1,7 +1,9 @@
 import { Typography } from '@material-ui/core';
 import React from 'react';
 import myImage from '../../assets/images/profile_img.jpg';
-import CustomTimeline, { CustomTimelineSeparator } from '../Timeline/Timeline';
+import CustomTimeline, {
+  CustomTimelineSeparator,
+} from '../../components/Timeline/CustomTimeline';
 import './Profile.css';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import myData from '../../utilities/myData';

@@ -32,7 +32,48 @@ const myData = {
     },
   },
   aboutMe:
-    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores cum repellendus perspiciatis quam nesciunt, cupiditate voluptates illo labore nostrum placeat quisquam exercitationem itaque optio alias veritatis repellat quod nobis voluptate.',
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum architecto sit sapiente porro obcaecati excepturi nam fugiat, maiores quis esse quae eveniet inventore quia quos deserunt ab? Voluptatibus, excepturi vel!Dolorum fugit ratione obcaecati ab deleniti amet \n deserunt asperiores atque autem ad eligendi beatae distinctio, laborum quam eaque libero facilis perferendis explicabo accusantium excepturi itaque? Eos eligendi consectetur nihil eaque.',
+
+  experiences: [
+    {
+      title: 'Work1',
+      date: '2018-present',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum architecto sit sapiente ',
+    },
+    {
+      title: 'Work2',
+      date: '2014-2018',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum architecto sit sapiente ',
+    },
+    {
+      title: 'Work3',
+      date: '2010-2014',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum architecto sit sapiente ',
+    },
+  ],
+  education: [
+    {
+      title: 'Education1',
+      date: '2018-present',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum architecto sit sapiente ',
+    },
+    {
+      title: 'Education2',
+      date: '2014-2018',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum architecto sit sapiente ',
+    },
+    {
+      title: 'Education3',
+      date: '2010-2014',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum architecto sit sapiente ',
+    },
+  ],
 };
 
 export default myData;
