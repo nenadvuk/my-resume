@@ -17,14 +17,16 @@ function App() {
         <Grid item xs>
           <BrowserRouter>
             <Header />
-            <Switch>
-              <Route path="/projects">
-                <Projects />
-              </Route>
-              <Route path="/">
-                <Resume />
-              </Route>
-            </Switch>
+            <div className="main_content .container_shadow">
+              <Switch>
+                <Route path="/projects">
+                  <Projects />
+                </Route>
+                <Route path="/">
+                  <Resume />
+                </Route>
+              </Switch>
+            </div>
           </BrowserRouter>
           <Footer />
         </Grid>

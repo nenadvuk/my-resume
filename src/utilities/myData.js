@@ -31,6 +31,8 @@ const myData = {
       icon: <InstagramIcon />,
     },
   },
+  aboutMe:
+    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores cum repellendus perspiciatis quam nesciunt, cupiditate voluptates illo labore nostrum placeat quisquam exercitationem itaque optio alias veritatis repellat quod nobis voluptate.',
 };
 
 export default myData;
