@@ -13,11 +13,15 @@
   outline: none;
 }
 
-.custom_btn:hover {
-  background-color: rgb(250, 197, 99)
+.btn-container>a {
+  text-decoration: none;
 }
 
-.custom_btn .btn_icon_container {
+.custom_btn:hover {
+  background-color: rgb(252, 182, 54);
+}
+
+.btn_icon_container {
   color: #000;
   background-color: #fff;
   border-radius: 50%;
@@ -29,11 +33,11 @@
   justify-content: center;
 }
 
-.custom_btn .btn_icon_container>.MuiSvgIcon-root {
+.btn_icon_container>.MuiSvgIcon-root {
   font-size: 16px;
 }
 
-.custom_btn .btn_text {
+.btn_text {
   font-size: 14px;
   text-transform: none;
   text-align: center;
