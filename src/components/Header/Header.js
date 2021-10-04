@@ -3,7 +3,6 @@ import './Header.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   Container,
-  Button,
   Form,
   FormControl,
   Nav,
@@ -45,6 +44,14 @@ const Header = (props) => {
           >
             Resume
           </Nav.Link>
+          {/* Skills link */}
+          <Nav.Link
+            as={NavLink}
+            to="/skills"
+            className={pathName === '/skills' ? 'header_link_active' : 'header_link'}
+          >
+            Skills
+          </Nav.Link>
           {/* projects link */}
           <Nav.Link
             as={NavLink}
@@ -55,6 +62,16 @@ const Header = (props) => {
           >
             Projects
           </Nav.Link>
+          {/* Hobbies */}
+          <Nav.Link
+            as={NavLink}
+            to="/hobbies"
+            className={
+              pathName === '/hobbies' ? 'header_link_active' : 'header_link'
+            }
+          >
+            Hobbies
+          </Nav.Link>
         </Nav>
         <div className="header_right">
           {Object.keys(myData.socials).map((item) => (
@@ -63,7 +80,7 @@ const Header = (props) => {
             </a>
           ))}
         </div>
-        <CustomButton text={'Contact me'} icon={<Telegram />} />
+        <CustomButton text={'E-mail'} icon={<Telegram />} />
       </Navbar.Collapse>
     </Navbar>
   );

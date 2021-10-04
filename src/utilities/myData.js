@@ -1,79 +1,109 @@
-import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import FacebookIcon from '@material-ui/icons/Facebook';
-import InstagramIcon from '@material-ui/icons/Instagram';
+import GitHubIcon from "@material-ui/icons/GitHub";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import InstagramIcon from "@material-ui/icons/Instagram";
 
 const myData = {
-  name: 'Nenad Vukasinovic',
-  title: 'Front-end developer',
-  phone: '0641962775',
-  email: 'nenadvukasinovic.rs@gmail.com',
+  name: "Nenad ",
+  lastname: "Vukasinovic",
+  title: "Front-end developer",
+  phone: "0641962775",
+  email: "nenadvukasinovic.rs@gmail.com",
 
   socials: {
     Github: {
-      link: 'https://github.com/nenadvuk',
-      text: 'Go to GitHub',
-      icon: <GitHubIcon />,
+      link: "https://github.com/nenadvuk",
+      text: "Go to GitHub",
+      icon: <GitHubIcon />
     },
     LinkedIn: {
-      link: 'https://www.linkedin.com/in/nenad-vukasinovic-3569871a2/',
-      text: 'Go to LinkedIn',
-      icon: <LinkedInIcon />,
+      link: "https://www.linkedin.com/in/nenad-vukasinovic-3569871a2/",
+      text: "Go to LinkedIn",
+      icon: <LinkedInIcon />
     },
     Facebook: {
-      link: 'https://www.facebook.com/nenad.vukasinovic',
-      text: 'Go to Facebook',
-      icon: <FacebookIcon />,
+      link: "https://www.facebook.com/nenad.vukasinovic",
+      text: "Go to Facebook",
+      icon: <FacebookIcon />
     },
     Instagram: {
-      link: 'https://www.instagram.com/nenad_vuk/',
-      text: 'Go to Instagram',
-      icon: <InstagramIcon />,
-    },
+      link: "https://www.instagram.com/nenad_vuk/",
+      text: "Go to Instagram",
+      icon: <InstagramIcon />
+    }
   },
   aboutMe:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum architecto sit sapiente porro obcaecati excepturi nam fugiat, maiores quis esse quae eveniet inventore quia quos deserunt ab? Voluptatibus, excepturi vel!Dolorum fugit ratione obcaecati ab deleniti amet \n deserunt asperiores atque autem ad eligendi beatae distinctio, laborum quam eaque libero facilis perferendis explicabo accusantium excepturi itaque? Eos eligendi consectetur nihil eaque.',
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum architecto sit sapiente porro obcaecati excepturi nam fugiat, maiores quis esse quae eveniet inventore quia quos deserunt ab? Voluptatibus, excepturi vel!Dolorum fugit ratione obcaecati ab deleniti amet \n deserunt asperiores atque autem ad eligendi beatae distinctio, laborum quam eaque libero facilis perferendis explicabo accusantium excepturi itaque? Eos eligendi consectetur nihil eaque.",
 
   experiences: [
     {
-      title: 'Work1',
-      date: '2018-present',
-      description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum architecto sit sapiente ',
+      title: "Software-Nation",
+      date: "Maj - jul 2019",
+      description: "Practice (Vue.js, Bootstrap)"
     },
     {
-      title: 'Work2',
-      date: '2014-2018',
+      title: "Generali Osiguranje Srbija",
+      date: "2014 – 2018",
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum architecto sit sapiente ',
+        "Consultant in the sale of life and non-life insurance policies"
     },
     {
-      title: 'Work3',
-      date: '2010-2014',
-      description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum architecto sit sapiente ',
+      title: "Tempo",
+      date: "2008 – 2011",
+      description: "Coordinator at the technical department"
     },
+    {
+      title: "Euroluxpetrol",
+      date: "2006 – 2008",
+      description: "Head of the shift at the fuel station"
+    }
   ],
-  education: [
+  educations: [
     {
-      title: 'Education1',
-      date: '2018-present',
+      title: "Code by Comtrade",
+      date: "2018-2019",
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum architecto sit sapiente ',
+        "Junior front-end developer (JavaScript, HTML, CSS, GITHUB)"
     },
     {
-      title: 'Education2',
-      date: '2014-2018',
+      title: "Visoka poslovna škola strukovnih studija Belgrade",
+      date: "2016-2019",
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum architecto sit sapiente ',
+        "Bachelor’s degree in Economics VI (180 ESPB)"
     },
     {
-      title: 'Education3',
-      date: '2010-2014',
+      title: "Tehnička škola Trstenik",
+      date: "1995-1999",
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum architecto sit sapiente ',
-    },
+        "Electrical technician of automatics"
+    }
   ],
+
+  skills: [
+    {
+      title: "Programming skills",
+      description: [
+        "HTML",
+        "CSS",
+        "SASS",
+        "BOOTSTRAP",
+        "JAVASCRIPT",
+        "JQUERY",
+        "TYPESCRIPT",
+        "VUE.JS",
+        "REACT.JS"
+      ]
+    },
+    {
+      title: "Computer skills",
+      description: ["MS OFFICE", "PHOTOSHOP", "ADOBE XD", "AUTOCAD", "COREL"]
+    },
+    {
+      title: "Languages",
+      description: ["English","French"]
+    },
+   
+  ]
 };
 
 export default myData;

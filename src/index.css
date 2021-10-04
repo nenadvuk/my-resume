@@ -10,7 +10,9 @@ body {
   overflow-x: hidden;
   background: url('./assets/images/img3.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
 }
 
 code {

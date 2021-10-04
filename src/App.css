@@ -1,5 +1,9 @@
 :root {
-  --main-color: #F27405
+  --main-color: #f27405;
+}
+
+.orange {
+  color: var(--main-color);
 }
 
 /* Margins and paddings */
@@ -24,9 +28,9 @@
   padding-bottom: 45px !important;
 }
 
-@media (max-width:991px) {
+@media (max-width: 991px) {
   .top-margin {
-    margin-top: 25px
+    margin-top: 25px;
   }
 }
 
@@ -38,10 +42,12 @@
 
 .main_content {
   background-color: whitesmoke;
-  min-height: 100vh;
+  min-height: 80vh;
+  /* min-height: 659px; */
   border-radius: 8px;
   margin-bottom: 30px;
   padding: 30px;
+  /* overflow: scroll; */
 }
 
 .section_title {
@@ -61,8 +67,17 @@
   position: absolute;
   height: 5px;
   width: 100%;
-  opacity: .7;
+  opacity: 0.7;
   bottom: 0;
   left: 0;
   background-color: var(--main-color);
+}
+
+/* Animated switch router */
+.switch-wrapper {
+  position: relative;
+}
+
+.switch-wrapper > div {
+  position: absolute;
 }

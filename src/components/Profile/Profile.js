@@ -41,7 +41,10 @@ const Profile = () => {
   return (
     <div className="profile container_shadow ">
       <div className="profile_name">
-        <Typography className="name">{myData.name}</Typography>
+        <Typography className="name">
+          <span className="orange">{myData.name} </span>
+          {myData.lastname}
+        </Typography>
         <Typography className="title">{myData.title}</Typography>
       </div>
       <figure className="profile_img">
@@ -49,7 +52,7 @@ const Profile = () => {
       </figure>
       <div className="profile_info">
         <CustomTimeline icon={<PersonOutlinedIcon />}>
-          <CustomTimelineItem title="Name" text={myData.name} />
+          <CustomTimelineItem title="Name" text={myData.name+myData.lastname}  />
           <CustomTimelineItem title="Title" text={myData.title} />
           <CustomTimelineItem title="Phone" text={myData.phone} />
           <CustomTimelineItem title="Email" text={myData.email} />

@@ -1,9 +1,9 @@
 .header {
   margin-bottom: 30px;
   background-color: whitesmoke;
-  padding: 0 22px 0 0;
+  padding: 0 15px 0 0;
   border-radius: 8px;
-  box-shadow: 8px 2px 92px 0px rgba(0, 0, 0, .2);
+  box-shadow: 8px 2px 92px 0px rgba(0, 0, 0, 0.2);
   min-height: 60px;
 }
 
@@ -22,8 +22,8 @@
 }
 
 .header_home {
-  background-color: var(--main-color) !important;
-  padding: 8px;
+  background-color: var(--main-color) ;
+  padding: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,7 +36,12 @@
   margin-right: auto;
 }
 
-a>.MuiSvgIcon-root {
+.header_right {
+  display: flex;
+  justify-content: start;
+}
+
+a > .MuiSvgIcon-root {
   font-size: 20px;
   margin-right: 10px;
   color: black;

@@ -2,7 +2,9 @@
   background-color: #fff;
   border-radius: 6px;
   width: 100%;
+  /* min-height: 100vh; */
   display: inline-block;
+
 }
 
 .profile_name {
@@ -60,7 +62,7 @@
 }
 
 .timelineItem_text>span {
-  color: black;
+  color: var(--main-color);
 }
 
 .btn-container {
