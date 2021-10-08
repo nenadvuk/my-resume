@@ -8,11 +8,11 @@ import CustomTimeline, {
 import WorkIcon from '@material-ui/icons/Work';
 import SchoolIcon from '@material-ui/icons/School';
 import {
-  TimelineConnector,
+  // TimelineConnector,
   TimelineContent,
-  TimelineDot,
+  // TimelineDot,
   TimelineItem,
-  TimelineSeparator,
+  // TimelineSeparator,
 } from '@material-ui/lab';
 
 const Resume = () => {

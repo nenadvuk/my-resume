@@ -1,16 +1,17 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./AnimatedBar.css";
 
-const AnimatedBar = ({ done }) => {
+const AnimatedBar = ({ size, source }) => {
   const [style, setStyle] = useState({});
 
-  setTimeout(() => {
+  useEffect(() => {
     const newStyle = {
       opacity: 1,
-      width: `${done}%`
+      width: `${size}%`
     };
-    setStyle(newStyle);
-  }, 500);
+    setTimeout(() => setStyle(newStyle), 100);
+  },[size]);
+
   return (
     <div className="progress">
       <div
@@ -18,7 +19,7 @@ const AnimatedBar = ({ done }) => {
         style={style}
         
       >
-        {/* {done}% */}
+        {source}
       </div>
     </div>
   );

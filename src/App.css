@@ -73,11 +73,29 @@
   background-color: var(--main-color);
 }
 
+.graybg{
+  background-color: #fafafa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Animated switch router */
-.switch-wrapper {
+/* .switch-wrapper {
   position: relative;
 }
 
 .switch-wrapper > div {
   position: absolute;
-}
+} */

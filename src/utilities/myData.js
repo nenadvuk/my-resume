@@ -62,20 +62,17 @@ const myData = {
     {
       title: "Code by Comtrade",
       date: "2018-2019",
-      description:
-        "Junior front-end developer (JavaScript, HTML, CSS, GITHUB)"
+      description: "Junior front-end developer (JavaScript, HTML, CSS, GITHUB)"
     },
     {
       title: "Visoka poslovna škola strukovnih studija Belgrade",
       date: "2016-2019",
-      description:
-        "Bachelor’s degree in Economics VI (180 ESPB)"
+      description: "Bachelor’s degree in Economics VI (180 ESPB)"
     },
     {
       title: "Tehnička škola Trstenik",
       date: "1995-1999",
-      description:
-        "Electrical technician of automatics"
+      description: "Electrical technician of automatics"
     }
   ],
 
@@ -83,26 +80,31 @@ const myData = {
     {
       title: "Programming skills",
       description: [
-        "HTML",
-        "CSS",
-        "SASS",
-        "BOOTSTRAP",
-        "JAVASCRIPT",
-        "JQUERY",
-        "TYPESCRIPT",
-        "VUE.JS",
-        "REACT.JS"
+        ["HTML", "90"],
+        ["CSS", "80"],
+        ["SASS", "75"],
+        ["BOOTSTRAP", "90"],
+        ["JAVASCRIPT", "75"],
+        ["JQUERY", "65"],
+        ["TYPESCRIPT", "68"],
+        ["VUE.JS", "60"],
+        ["REACT.JS", "65"]
       ]
     },
     {
       title: "Computer skills",
-      description: ["MS OFFICE", "PHOTOSHOP", "ADOBE XD", "AUTOCAD", "COREL"]
+      description: [
+        ["MS OFFICE","90"],
+        ["PHOTOSHOP","60"],
+        ["ADOBE XD","55"],
+        ["AUTOCAD","45"],
+        ["COREL","75"]
+      ]
     },
     {
       title: "Languages",
-      description: ["English","French"]
-    },
-   
+      description: [["ENGLISH","85"], ["FRENCH","35"]]
+    }
   ]
 };
 

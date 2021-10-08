@@ -38,7 +38,7 @@
 
 .header_right {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 a > .MuiSvgIcon-root {

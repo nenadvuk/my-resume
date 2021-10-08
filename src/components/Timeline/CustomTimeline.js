@@ -7,7 +7,7 @@ import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import './Timeline.css';
 import { Typography } from '@material-ui/core';
-import WorkIcon from '@material-ui/icons/Work';
+// import WorkIcon from '@material-ui/icons/Work';
 
 const CustomTimeline = ({ title, icon, children }) => {
   return (

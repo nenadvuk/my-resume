@@ -2,21 +2,21 @@ import React from 'react';
 import './Header.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
-  Container,
+  /* Container,
   Form,
-  FormControl,
+  FormControl, */
   Nav,
   Navbar,
-  NavDropdown,
+  // NavDropdown,
 } from 'react-bootstrap';
-import { Link, NavLink, withRouter } from 'react-router-dom';
+import { NavLink, withRouter } from 'react-router-dom';
 import {
-  HomeRounder,
-  SchoolRounded,
-  WorkRounder,
-  Facebook,
-  LinkedIn,
-  GitHub,
+  // HomeRounder,
+  // SchoolRounded,
+  // WorkRounder,
+  // Facebook,
+  // LinkedIn,
+  // GitHub,
   Telegram,
   HomeRounded,
 } from '@material-ui/icons';
@@ -75,7 +75,7 @@ const Header = (props) => {
         </Nav>
         <div className="header_right">
           {Object.keys(myData.socials).map((item) => (
-            <a href={myData.socials[item].link} target="_blank" key={item}>
+            <a href={myData.socials[item].link} target="_blank" rel="noreferrer" key={item}>
               {myData.socials[item].icon}
             </a>
           ))}

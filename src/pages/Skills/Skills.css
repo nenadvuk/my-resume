@@ -1,0 +1,20 @@
+/* .skill {
+  
+} */
+
+.skill_title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.skill_description {
+  display: flex;
+  align-items: center;
+}
+
+.timeline_dot {
+  color: black;
+  border-color: var(--main-color) !important;
+  /* margin-right: 5px; */
+}

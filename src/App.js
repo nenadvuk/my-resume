@@ -1,6 +1,6 @@
 import { Container, Grid } from "@material-ui/core";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import { AnimatedSwitch } from "react-router-transition";
+// import { AnimatedSwitch } from "react-router-transition";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Profile from "./components/Profile/Profile";
@@ -9,8 +9,6 @@ import Resume from "./pages/Resume/Resume";
 import "./App.css";
 import Hobbies from "./pages/Hobbies/Hobbies";
 import Skills from "./pages/Skills/Skills";
-import AnimatedBar from "./components/AnimatedBar/AnimatedBar";
-
 
 function App() {
   return (
@@ -50,7 +48,6 @@ function App() {
               </Switch>
             </div>
           </BrowserRouter>
-          <AnimatedBar done="70"/>
           <Footer />
         </Grid>
       </Grid>
