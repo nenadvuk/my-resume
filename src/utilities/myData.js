@@ -87,8 +87,8 @@ const myData = {
         ["JAVASCRIPT", "75"],
         ["JQUERY", "65"],
         ["TYPESCRIPT", "68"],
-        ["VUE.JS", "60"],
-        ["REACT.JS", "65"]
+        ["VUE.JS", "55"],
+        ["REACT.JS", "70"]
       ]
     },
     {
@@ -103,7 +103,7 @@ const myData = {
     },
     {
       title: "Languages",
-      description: [["ENGLISH","85"], ["FRENCH","35"]]
+      description: [["ENGLISH","85"], ["FRENCH","30"]]
     }
   ]
 };

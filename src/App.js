@@ -14,7 +14,7 @@ function App() {
   return (
     <Container className={"top-margin"}>
       <Grid container spacing={5}>
-        <Grid item xs={12} sm={12} md={4} lg={3}>
+        <Grid item xs={12} sm={12} md={5} lg={4}>
           <Profile />
         </Grid>
         <Grid item xs>

@@ -1,9 +1,9 @@
 .header {
   margin-bottom: 30px;
   background-color: whitesmoke;
-  padding: 0 15px 0 0;
+  padding:1rem;
   border-radius: 8px;
-  box-shadow: 8px 2px 92px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 8px 2px 92px 0px rgba(0, 0, 0, 0.3);
   min-height: 60px;
 }
 
@@ -37,6 +37,7 @@
 }
 
 .header_right {
+  padding: .5rem 0 .5rem 0;
   display: flex;
   justify-content: flex-start;
 }

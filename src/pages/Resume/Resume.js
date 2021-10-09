@@ -1,19 +1,13 @@
-import { Grid, Typography } from '@material-ui/core';
-import myData from '../../utilities/myData';
-import React from 'react';
-import './Resume.css';
+import { Grid, Typography } from "@material-ui/core";
+import myData from "../../utilities/myData";
+import React from "react";
+import "./Resume.css";
 import CustomTimeline, {
-  CustomTimelineSeparator,
-} from '../../components/Timeline/CustomTimeline';
-import WorkIcon from '@material-ui/icons/Work';
-import SchoolIcon from '@material-ui/icons/School';
-import {
-  // TimelineConnector,
-  TimelineContent,
-  // TimelineDot,
-  TimelineItem,
-  // TimelineSeparator,
-} from '@material-ui/lab';
+  CustomTimelineSeparator
+} from "../../components/Timeline/CustomTimeline";
+import WorkIcon from "@material-ui/icons/Work";
+import SchoolIcon from "@material-ui/icons/School";
+import { TimelineContent, TimelineItem } from "@material-ui/lab";
 
 const Resume = () => {
   return (
@@ -48,7 +42,7 @@ const Resume = () => {
                     <CustomTimelineSeparator />
                     <TimelineContent className="resume_content">
                       <Typography className="timeline_title">
-                        {exp.title}
+                        <strong>{exp.title}</strong>
                       </Typography>
                       <Typography variant="caption" className="timeline_date">
                         {exp.date}
@@ -73,7 +67,7 @@ const Resume = () => {
                     <CustomTimelineSeparator />
                     <TimelineContent className="resume_content">
                       <Typography className="timeline_title">
-                        {edu.title}
+                        <strong> {edu.title}</strong>
                       </Typography>
                       <Typography variant="caption" className="timeline_date">
                         {edu.date}
@@ -93,7 +87,6 @@ const Resume = () => {
         </Grid>
       </Grid>
 
-     
       {/* Contact */}
       <Grid container className="section"></Grid>
     </>
