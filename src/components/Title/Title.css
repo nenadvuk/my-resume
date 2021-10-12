@@ -1,0 +1,25 @@
+.patterns {
+  height: 50px;
+}
+
+svg text {
+  stroke: #c67258;
+  font-size: 38px;
+  font-weight: 500;
+  stroke-width: 2;
+  animation: textAnimate 10s infinite alternate;
+}
+
+@keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset: 20%;
+    fill: #2e4153;
+  }
+
+  100% {
+    stroke-dasharray: 50% 0;
+    stroke-dashoffset: -20%;
+    fill: lightgray;
+  }
+}

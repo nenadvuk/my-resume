@@ -2,6 +2,12 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
+import worldImg from "../assets/images/World.png";
+import luckySixImg from "../assets/images/Lucky-Six.png";
+import lotteryImg from "../assets/images/Lottery.png";
+import programmingImg from "../assets/images/Programming.png";
+import websiteImg from "../assets/images/WebSite.png";
+import blackJackImg from "../assets/images/BlackJack.png";
 
 const myData = {
   name: "Nenad ",
@@ -62,7 +68,8 @@ const myData = {
     {
       title: "Code by Comtrade",
       date: "2018-2019",
-      description: "Junior front-end developer (JavaScript, HTML, CSS, GITHUB)"
+      description:
+        "Junior front-end developer (JavaScript, HTML, CSS, BootStrap, GITHUB)"
     },
     {
       title: "Visoka poslovna škola strukovnih studija Belgrade",
@@ -94,16 +101,63 @@ const myData = {
     {
       title: "Computer skills",
       description: [
-        ["MS OFFICE","90"],
-        ["PHOTOSHOP","60"],
-        ["ADOBE XD","55"],
-        ["AUTOCAD","45"],
-        ["COREL","75"]
+        ["MS OFFICE", "90"],
+        ["PHOTOSHOP", "60"],
+        ["ADOBE XD", "55"],
+        ["AUTOCAD", "45"],
+        ["COREL", "75"]
       ]
     },
     {
       title: "Languages",
-      description: [["ENGLISH","85"], ["FRENCH","30"]]
+      description: [
+        ["ENGLISH", "85"],
+        ["FRENCH", "30"]
+      ]
+    }
+  ],
+  projects: [
+    {
+      image: { worldImg },
+      title: "Countries Quiz",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      link: "https://nenadvuk.github.io/countries-quiz/"
+    },
+    {
+      image: { luckySixImg },
+      title: "Lucky Six Game",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      link: "https://nenadvuk.github.io/lucky-six-game/"
+    },
+    {
+      image: { programmingImg },
+      title: "Škola Programiranja",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      link: "https://nenadvuk.github.io/skola-programiranja-ruby-n/"
+    },
+    {
+      image: { lotteryImg },
+      title: "Lottery Game",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      link: "https://nenadvuk.github.io/lottery-game/"
+    },
+    {
+      image: { websiteImg },
+      title: "VUE Website",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      link: "https://nenadvuk.github.io/#/"
+    },
+    {
+      image: { blackJackImg },
+      title: "BlackJack Game",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      link: "https://nenadvuk.github.io/blackjack-game/"
     }
   ]
 };

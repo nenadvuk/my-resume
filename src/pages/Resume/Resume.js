@@ -8,6 +8,7 @@ import CustomTimeline, {
 import WorkIcon from "@material-ui/icons/Work";
 import SchoolIcon from "@material-ui/icons/School";
 import { TimelineContent, TimelineItem } from "@material-ui/lab";
+import Title from "../../components/Title/Title";
 
 const Resume = () => {
   return (
@@ -26,10 +27,11 @@ const Resume = () => {
       </Grid> */}
 
       {/*Education && Experience */}
-      <Grid container className="section">
+      <Grid container className="section padding_bottom_45">
         <Grid item className="section_title margin_bottom_30">
-          <span></span>
-          <h6 className="section_title_text">Resume</h6>
+          {/* <span></span>
+          <h6 className="section_title_text">Resume</h6> */}
+          <Title name='RESUME' />
         </Grid>
 
         <Grid item xs={12}>
