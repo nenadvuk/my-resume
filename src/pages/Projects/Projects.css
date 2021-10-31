@@ -1,0 +1,25 @@
+.custom-card {
+  height: 100%;
+  max-width: 350px;
+  /* border-radius: 5px; */
+  overflow: hidden;
+
+}
+
+.custom-card_image {
+  height: 140px;
+}
+
+.custom-card_title {
+}
+
+.custom-card_description {
+}
+
+.projectModal_image{
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+
+}

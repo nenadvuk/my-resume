@@ -2,12 +2,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
-import worldImg from "../assets/images/World.png";
-import luckySixImg from "../assets/images/Lucky-Six.png";
-import lotteryImg from "../assets/images/Lottery.png";
-import programmingImg from "../assets/images/Programming.png";
-import websiteImg from "../assets/images/WebSite.png";
-import blackJackImg from "../assets/images/BlackJack.png";
+
 
 const myData = {
   name: "Nenad ",
@@ -118,43 +113,49 @@ const myData = {
   ],
   projects: [
     {
-      image: { worldImg },
+      image: "/card-images/World.png",
       title: "Countries Quiz",
+      caption: "Short description",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       link: "https://nenadvuk.github.io/countries-quiz/"
     },
     {
-      image: { luckySixImg },
+      image: "/card-images/Lucky-Six.png",
       title: "Lucky Six Game",
+      caption: "Short description",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       link: "https://nenadvuk.github.io/lucky-six-game/"
     },
     {
-      image: { programmingImg },
+      image: "/card-images/Programming.png",
       title: "Škola Programiranja",
+      caption: "Short description",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       link: "https://nenadvuk.github.io/skola-programiranja-ruby-n/"
     },
     {
-      image: { lotteryImg },
+      image: "/card-images/Lottery.png",
       title: "Lottery Game",
+      caption: "Short description",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
       link: "https://nenadvuk.github.io/lottery-game/"
     },
     {
-      image: { websiteImg },
+      image: "/card-images/WebSite.png",
       title: "VUE Website",
+      caption: "Short description",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       link: "https://nenadvuk.github.io/#/"
     },
     {
-      image: { blackJackImg },
+      image: "/card-images/BlackJack.png",
       title: "BlackJack Game",
+      caption: "Short description",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       link: "https://nenadvuk.github.io/blackjack-game/"
