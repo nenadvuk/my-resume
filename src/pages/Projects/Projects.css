@@ -7,9 +7,13 @@
 }
 
 .custom-card_image {
+
   height: 140px;
 }
 
+.MuiCardMedia-img {
+  object-fit: contain !important;
+}
 .custom-card_title {
 }
 
@@ -19,7 +23,7 @@
 .projectModal_image{
   max-height: 300px;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center center;
 
 }

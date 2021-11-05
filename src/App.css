@@ -28,11 +28,7 @@
   padding-bottom: 45px !important;
 }
 
-@media (max-width: 991px) {
-  .top-margin {
-    margin-top: 25px;
-  }
-}
+
 
 .container_shadow {
   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.2);
@@ -42,8 +38,7 @@
 
 .main_content {
   background-color: whitesmoke;
-  min-height: 80vh;
-  /* min-height: 659px; */
+  height: 642px;
   border-radius: 8px;
   margin-bottom: 30px;
   padding: 30px;
@@ -77,26 +72,11 @@
   background-color: #fafafa;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Animated switch router */
-/* .switch-wrapper {
-  position: relative;
+@media screen and (max-width: 991px) {
+  .top-margin {
+    margin-top: 25px;
+  }
+  .main_content {
+    height: auto;
+  }
 }
-
-.switch-wrapper > div {
-  position: absolute;
-  
-} */
