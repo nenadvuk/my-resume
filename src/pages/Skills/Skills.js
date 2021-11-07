@@ -10,8 +10,6 @@ const Skills = () => {
     <div>
       <Grid container className="section padding_bottom_45">
         <Grid item className="section_title margin_bottom_30">
-          {/* <span></span>
-          <h6 className="section_title_text">Skills</h6> */}
           <Title name="SKILLS" />
         </Grid>
         <Grid
@@ -25,6 +23,7 @@ const Skills = () => {
               <Typography variant="h6" className="skill_title">
                 {skill.title}
               </Typography>
+
               {skill.description.map((el) => (
                 <Typography
                   key={el[0]}

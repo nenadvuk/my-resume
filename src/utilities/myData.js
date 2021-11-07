@@ -3,10 +3,9 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 
-
 const myData = {
   name: "Nenad ",
-  lastname: "Vukasinovic",
+  lastname: "Vukašinović",
   title: "Front-end developer",
   phone: "0641962775",
   email: "nenadvukasinovic.rs@gmail.com",
@@ -15,22 +14,26 @@ const myData = {
     Github: {
       link: "https://github.com/nenadvuk",
       text: "Go to GitHub",
-      icon: <GitHubIcon />
+      icon: <GitHubIcon />,
+      title: "Github"
     },
     LinkedIn: {
       link: "https://www.linkedin.com/in/nenad-vukasinovic-3569871a2/",
       text: "Go to LinkedIn",
-      icon: <LinkedInIcon />
+      icon: <LinkedInIcon />,
+      title: "LinkedIn"
     },
     Facebook: {
       link: "https://www.facebook.com/nenad.vukasinovic",
       text: "Go to Facebook",
-      icon: <FacebookIcon />
+      icon: <FacebookIcon />,
+      title: "Facebook"
     },
     Instagram: {
       link: "https://www.instagram.com/nenad_vuk/",
       text: "Go to Instagram",
-      icon: <InstagramIcon />
+      icon: <InstagramIcon />,
+      title: "Instagram"
     }
   },
   aboutMe:
@@ -39,8 +42,8 @@ const myData = {
   experiences: [
     {
       title: "Software-Nation",
-      date: "Maj - jul 2019",
-      description: "Practice (Vue.js, Bootstrap)"
+      date: "May - Jul 2019",
+      description: "Internship (Vue.js, Bootstrap)"
     },
     {
       title: "Generali Osiguranje Srbija",
@@ -140,8 +143,7 @@ const myData = {
       image: "/card-images/Lottery.png",
       title: "Lottery Game",
       caption: "Short description",
-      description:
-        "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      description: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
       link: "https://nenadvuk.github.io/lottery-game/"
     },
     {
@@ -159,6 +161,30 @@ const myData = {
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       link: "https://nenadvuk.github.io/blackjack-game/"
+    }
+  ],
+  hobbies: [
+    {
+      image: "/hobbies-images/running-man.jpg",
+      title: "Athletics-running"
+    },
+    {
+      image: "/hobbies-images/photographer.jpg",
+      title: "Photography",
+      margin: "75px",
+      delay: "250ms"
+    },
+    {
+      image: "/hobbies-images/chessboard.jpg",
+      title: "Chess",
+      margin: "150px",
+      delay: "500ms"
+    },
+    {
+      image: "/hobbies-images/shooting.jpg",
+      title: "Sports shooting",
+      margin: "225px",
+      delay: "750ms"
     }
   ]
 };

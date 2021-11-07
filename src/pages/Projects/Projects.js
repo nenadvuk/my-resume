@@ -17,10 +17,8 @@ import myData from "../../utilities/myData";
 import "./Projects.css";
 
 const Projects = () => {
-
   const [projectModal, setProjectModal] = useState(false);
   const [modalContent, setModalContent] = useState([]);
-  
 
   return (
     <Grid container className="section padding_bottom_45">
@@ -31,11 +29,11 @@ const Projects = () => {
         <Grid container spacing={3}>
           {myData.projects.map((project) => (
             <Grid item xs={12} sm={6} md={4} lg={4} key={project.title}>
-              <Grow in timeout={800}>
+              <Grow in timeout={1000}>
                 <Card
                   className="custom-card"
                   onClick={() =>
-                    setModalContent(project) || setProjectModal(true) 
+                    setModalContent(project) || setProjectModal(true)
                   }
                 >
                   <CardActionArea>

@@ -1,4 +1,150 @@
-.footer {
+/* @import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700"); */
+
+.signature {
+  min-height: 60px;
+  position: relative;
+  margin-top: 50px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  font-family: "Orbitron", sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 0 0 0.6rem #fff, 0 0 1.5rem var(--signature-color),
+    -0.2rem 0.1rem 1rem var(--signature-color),
+    0.2rem 0.1rem 1rem var(--signature-color), 0 -0.5rem 2rem var(--main-color),
+    0 0.5rem 3rem var(--main-color);
+  animation: shine 2s forwards, flicker 3s infinite;
+}
+
+@keyframes blink {
+  0%,
+  22%,
+  36%,
+  75% {
+    color: #fff;
+    text-shadow: 0 0 0.6rem #fff, 0 0 1.5rem var(--signature-color),
+      -0.2rem 0.1rem 1rem var(--signature-color),
+      0.2rem 0.1rem 1rem var(--signature-color),
+      0 -0.5rem 2rem var(--main-color), 0 0.5rem 3rem var(--main-color);
+  }
+  28%,
+  33% {
+    color: var(--signature-color);
+    text-shadow: none;
+  }
+  82%,
+  97% {
+    color: var(--signature-color);
+    text-shadow: none;
+  }
+}
+
+.flicker {
+  animation: shine 2s forwards, blink 3s 2s infinite;
+}
+
+.fast-flicker {
+  animation: shine 2s forwards, blink 10s 1s infinite;
+}
+
+@keyframes flicker {
+  from {
+    opacity: 1;
+  }
+  4% {
+    opacity: 0.9;
+  }
+  6% {
+    opacity: 0.85;
+  }
+  8% {
+    opacity: 0.95;
+  }
+  10% {
+    opacity: 0.9;
+  }
+  11% {
+    opacity: 0.922;
+  }
+  12% {
+    opacity: 0.9;
+  }
+  14% {
+    opacity: 0.95;
+  }
+  16% {
+    opacity: 0.98;
+  }
+  17% {
+    opacity: 0.9;
+  }
+  19% {
+    opacity: 0.93;
+  }
+  20% {
+    opacity: 0.99;
+  }
+  24% {
+    opacity: 1;
+  }
+  26% {
+    opacity: 0.94;
+  }
+  28% {
+    opacity: 0.98;
+  }
+  37% {
+    opacity: 0.93;
+  }
+  38% {
+    opacity: 0.5;
+  }
+  39% {
+    opacity: 0.96;
+  }
+  42% {
+    opacity: 1;
+  }
+  44% {
+    opacity: 0.97;
+  }
+  46% {
+    opacity: 0.94;
+  }
+  56% {
+    opacity: 0.9;
+  }
+  58% {
+    opacity: 0.9;
+  }
+  60% {
+    opacity: 0.99;
+  }
+  68% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.9;
+  }
+  72% {
+    opacity: 0.95;
+  }
+  93% {
+    opacity: 0.93;
+  }
+  95% {
+    opacity: 0.95;
+  }
+  97% {
+    opacity: 0.93;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* .footer {
   background-color: var(--main-color);
   display: flex;
   flex-wrap: wrap;
@@ -8,4 +154,4 @@
   border-radius: 8px;
   padding: 8px 16px;
   margin-bottom: 30px;
-}
+} */

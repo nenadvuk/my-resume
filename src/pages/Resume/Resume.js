@@ -1,4 +1,4 @@
-import { Grid, Typography } from "@material-ui/core";
+import { Grid, Typography, Grow } from "@material-ui/core";
 import myData from "../../utilities/myData";
 import React from "react";
 import "./Resume.css";
@@ -35,6 +35,7 @@ const Resume = () => {
         </Grid>
 
         <Grid item xs={12}>
+            <Grow in timeout={1000}>
           <Grid container className="resume_timeline">
             {/* Experiences */}
             <Grid item sm={12} md={6}>
@@ -86,6 +87,7 @@ const Resume = () => {
               </CustomTimeline>
             </Grid>
           </Grid>
+          </Grow>
         </Grid>
       </Grid>
 

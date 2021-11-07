@@ -1,14 +1,22 @@
 .custom-card {
   height: 100%;
   max-width: 350px;
-  /* border-radius: 5px; */
   overflow: hidden;
+  background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(230, 104, 66, 0.596));
+}
 
+.custom-card:hover{
+  transition: 0.3s !important;
+  box-shadow: 0 0 15px rgba(73, 71, 71, 0.5);
 }
 
 .custom-card_image {
-
   height: 140px;
+}
+
+.MuiDialog-paper{
+  border-radius: 8px;
+  background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(230, 104, 66, 0.596));
 }
 
 .MuiCardMedia-img {
@@ -20,10 +28,9 @@
 .custom-card_description {
 }
 
-.projectModal_image{
+.projectModal_image {
   max-height: 300px;
   width: 100%;
   object-fit: contain;
   object-position: center center;
-
 }

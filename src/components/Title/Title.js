@@ -3,7 +3,7 @@ import "./Title.css";
 
 const Title = ({name}) => {
   return (
-    <div className={'patterns'}>
+    <div className='patterns fadeIn'>
       <svg >
         <text x="6%" y="20%" >
           {name}
