@@ -1,8 +1,9 @@
 .profile {
   background-color: #fff;
-  border-radius: 6px;
+  border-radius: 8px;
   width: 100%;
   display: inline-block;
+ 
 }
 
 .profile_name {
@@ -23,20 +24,25 @@
 
 .profile_img {
   margin-top: -18px;
-  -webkit-clip-path: polygon(0 9%, 100% 0, 100% 100%, 0% 100%);
-  clip-path: polygon(0 9%, 100% 0, 100% 100%, 0% 100%);
+  /* -webkit-clip-path: polygon(0 9%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 9%, 100% 0, 100% 100%, 0% 100%); */
 }
 
 .profile_img img {
-  width: 100%;
-  transition: transform 0.5s;
+  
+  /* width: 100%; */
+  object-fit: contain;
+  height: 258px;
+  /* width: 380px !important; */
+
+  /* transition: transform 0.5s; */
 }
 
-.profile_img img:hover {
+/* .profile_img img:hover {
   -ms-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
-}
+} */
 
 .profile_info {
   top: 0;
@@ -70,13 +76,40 @@
   justify-content: center;
 }
 
+span.carousel-control-prev-icon {
+  visibility: hidden;
+}
+
+span.carousel-control-next-icon {
+  visibility: hidden;
+}
+
 @media screen and (max-width: 1279px) {
   .profile {
     margin-left: 38%;
+    
   }
+  .profile_info {
+    
+
+  }
+  .profile_img img {
+    
+    object-fit: contain;
+    height: 258px;
+   
+  
+    transition: transform 0.5s;
+  }
+
 }
 
 @media screen and (max-width: 959px) {
+  .profile {
+    margin-left: 27%;
+  }
+}
+@media screen and (max-width: 599px) {
   .profile {
     margin-left: 0;
   }

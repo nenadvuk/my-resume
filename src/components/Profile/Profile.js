@@ -1,6 +1,6 @@
 import { Typography } from '@material-ui/core';
 import React from 'react';
-import myImage from '../../assets/images/profile_img.jpg';
+// import myImage from '../../assets/images/profile_img.jpg';
 import CustomTimeline, {
   CustomTimelineSeparator,
 } from '../../components/Timeline/CustomTimeline';
@@ -12,6 +12,7 @@ import { TimelineContent } from '@material-ui/lab';
 import CustomButton from '../Button/CustomButton';
 import GetAppIcon from '@material-ui/icons/GetApp';
 import PDF_CV from '../../assets/Files/CV_NENAD_VUKASINOVIC_ENG.pdf';
+import CarouselImage from '../CarouselImages/CarouselImage';
 
 const CustomTimelineItem = ({ title, text, link }) => {
   return (
@@ -48,7 +49,8 @@ const Profile = () => {
         <Typography className="title">{myData.title}</Typography>
       </div>
       <figure className="profile_img">
-        <img src={myImage} alt="" />
+        {/* <img src={myImage} alt="" /> */}
+        <CarouselImage />
       </figure>
       <div className="profile_info">
         <CustomTimeline icon={<PersonOutlinedIcon />}>
