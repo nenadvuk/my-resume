@@ -2,10 +2,25 @@
   height: 100%;
   max-width: 350px;
   overflow: hidden;
-  background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(230, 104, 66, 0.596));
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 0, 0, 0),
+    rgba(230, 104, 66, 0.596)
+  );
+  /* background: linear-gradient(
+    120deg,
+    #1f005c,
+    #5b0060,
+    #870160,
+    #ac255e,
+    #ca485c,
+    #e16b5c,
+    #f39060,
+    #ffb56b
+  ); */
 }
 
-.custom-card:hover{
+.custom-card:hover {
   transition: 0.3s !important;
   box-shadow: 0 0 15px rgba(73, 71, 71, 0.5);
 }
@@ -14,18 +29,17 @@
   height: 140px;
 }
 
-.MuiDialog-paper{
+.MuiDialog-paper {
   border-radius: 8px;
-  background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(230, 104, 66, 0.596));
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 0, 0, 0),
+    rgba(230, 104, 66, 0.596)
+  );
 }
 
 .MuiCardMedia-img {
   object-fit: contain !important;
-}
-.custom-card_title {
-}
-
-.custom-card_description {
 }
 
 .projectModal_image {

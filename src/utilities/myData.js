@@ -118,48 +118,48 @@ const myData = {
     {
       image: "/card-images/World.png",
       title: "Countries Quiz",
-      caption: "Short description",
+      caption: "Test your geography knowledge",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "How good is your geography general knowledge? Let's find out",
       link: "https://nenadvuk.github.io/countries-quiz/"
     },
     {
       image: "/card-images/Lucky-Six.png",
       title: "Lucky Six Game",
-      caption: "Short description",
+      caption: "Feeling lucky? Let's find out",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Lucky 6 is a popular dynamic and exciting live-game where 35 numbers are drawn at random from the 48 lottery balls in the lottery machine",
       link: "https://nenadvuk.github.io/lucky-six-game/"
     },
     {
       image: "/card-images/Programming.png",
       title: "Škola Programiranja",
-      caption: "Short description",
+      caption: "Programming School website",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "One of my first projects, which I did for the final exam at Code Academy",
       link: "https://nenadvuk.github.io/skola-programiranja-ruby-n/"
     },
     {
       image: "/card-images/Lottery.png",
       title: "Lottery Game",
-      caption: "Short description",
-      description: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      caption: "One of the most popular games of chance",
+      description: "You have a 1 in 15,380,937 chance of winning the lottery. Feeling lucky? Let's find out",
       link: "https://nenadvuk.github.io/lottery-game/"
     },
     {
       image: "/card-images/WebSite.png",
       title: "VUE Website",
-      caption: "Short description",
+      caption: "Site developed by Vue.js",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Site developed by Vue.js",
       link: "https://nenadvuk.github.io/#/"
     },
     {
       image: "/card-images/BlackJack.png",
       title: "BlackJack Game",
-      caption: "Short description",
+      caption: "The most widely played casino banking game in the world",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "A card game the object of which is to be dealt cards having a higher count than those of the dealer up to but not exceeding 21.",
       link: "https://nenadvuk.github.io/blackjack-game/"
     }
   ],

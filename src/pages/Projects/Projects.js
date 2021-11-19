@@ -74,12 +74,7 @@ const Projects = () => {
         <DialogContent>{modalContent.description}</DialogContent>
         <DialogActions className="projectModal_actions">
           {projectModal && (
-            <a
-              href={modalContent.link}
-              target="_blank"
-              rel="noreferrer"
-              className="projectModal_link"
-            >
+            <a href={modalContent.link} target="_blank" rel="noreferrer">
               Go to project
             </a>
           )}
