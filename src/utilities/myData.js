@@ -7,8 +7,8 @@ const myData = {
   name: "Nenad ",
   lastname: "Vukašinović",
   title: "Front-end developer",
-  phone: "0641962775",
-  email: "nenadvukasinovic.rs@gmail.com",
+  phone: "0652114981",
+  email: "nenadvuk.rs@gmail.com",
 
   socials: {
     Github: {
