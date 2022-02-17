@@ -12,12 +12,17 @@
   box-shadow: 0 3px 3px -5px #f2709c, 0 2px 5px #f2709c;
   border-radius: 20px;
   color: whitesmoke;
-  /* display: flex; */
   padding-left: 8px;
   align-items: center;
   justify-content: flex-start;
   height: 100%;
   width: 0;
   opacity: 0;
-  transition: 1s ease ;
+  transition: 1.2s ease ;
+}
+
+@media only screen and (max-width: 768px) {
+  .progress-done {
+    transition: none ;
+  }
 }
