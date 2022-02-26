@@ -143,24 +143,24 @@ const myData = {
       image: "/card-images/Lottery.png",
       title: "Lottery Game",
       caption: "One of the most popular games of chance",
-      description: "You have a 1 in 15,380,937 chance of winning the lottery. Feeling lucky? Let's find out",
+      description:
+        "You have a 1 in 15,380,937 chance of winning the lottery. Feeling lucky? Let's find out",
       link: "https://nenadvuk.github.io/lottery-game/"
     },
     {
       image: "/card-images/WebSite.png",
       title: "VUE Website",
       caption: "Site developed by Vue.js",
-      description:
-        "Site developed by Vue.js",
+      description: "Site developed by Vue.js",
       link: "https://nenadvuk.github.io/#/"
     },
     {
-      image: "/card-images/BlackJack.png",
-      title: "BlackJack Game",
-      caption: "The most widely played casino banking game in the world",
+      image: "/card-images/Restaurantella.png",
+      title: "Restaurant site",
+      caption: "Nice restaurant site developed by react.js",
       description:
-        "A card game the object of which is to be dealt cards having a higher count than those of the dealer up to but not exceeding 21.",
-      link: "https://nenadvuk.github.io/blackjack-game/"
+        "Come dine with us and experience an authentic meals and cocktails in an intimate dining space. We look forward to serving you!",
+      link: "https://restaurantella.netlify.app/"
     }
   ],
   hobbies: [
