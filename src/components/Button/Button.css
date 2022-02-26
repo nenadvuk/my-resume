@@ -13,14 +13,15 @@
   outline: none;
 }
 
-a {
+.btn_text > a{
   text-decoration: none;
   color: #000;
 }
 
-/* .btn-container>a {
+
+.btn-container>a {
   text-decoration: none;
-} */
+}
 
 .custom_btn:hover {
   background-color: rgb(252, 182, 54);

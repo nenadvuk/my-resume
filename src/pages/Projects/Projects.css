@@ -48,3 +48,8 @@
   object-fit: contain;
   object-position: center center;
 }
+
+a{
+  color: blue;
+  text-decoration: underline;
+}

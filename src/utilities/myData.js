@@ -157,7 +157,7 @@ const myData = {
     {
       image: "/card-images/Restaurantella.png",
       title: "Restaurant site",
-      caption: "Nice restaurant site developed by react.js",
+      caption: "Nice restaurant site developed by React.js",
       description:
         "Come dine with us and experience an authentic meals and cocktails in an intimate dining space. We look forward to serving you!",
       link: "https://restaurantella.netlify.app/"
