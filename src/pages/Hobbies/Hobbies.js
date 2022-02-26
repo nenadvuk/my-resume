@@ -30,7 +30,7 @@ const Hobbies = () => {
             key={hobby.title}
           >
             <Card
-              style={{ animationDelay: hobby.delay}}
+              style={{ animationDelay: hobby.delay }}
               className="fadeInUp hobby-card"
             >
               <CardActionArea>

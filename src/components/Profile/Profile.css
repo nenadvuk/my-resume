@@ -3,7 +3,6 @@
   border-radius: 8px;
   width: 100%;
   display: inline-block;
- 
 }
 
 .profile_name {
@@ -29,20 +28,9 @@
 }
 
 .profile_img img {
-  
-  /* width: 100%; */
   object-fit: contain;
   height: 258px;
-  /* width: 380px !important; */
-
-  /* transition: transform 0.5s; */
 }
-
-/* .profile_img img:hover {
-  -ms-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-} */
 
 .profile_info {
   top: 0;
@@ -87,21 +75,14 @@ span.carousel-control-next-icon {
 @media screen and (max-width: 1279px) {
   .profile {
     margin-left: 38%;
-    
   }
-  .profile_info {
-    
 
-  }
   .profile_img img {
-    
     object-fit: contain;
     height: 258px;
-   
-  
+
     transition: transform 0.5s;
   }
-
 }
 
 @media screen and (max-width: 959px) {
