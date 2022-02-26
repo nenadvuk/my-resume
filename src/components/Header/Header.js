@@ -6,10 +6,10 @@ import { NavLink, withRouter } from "react-router-dom";
 import { Telegram, HomeRounded } from "@material-ui/icons";
 import myData from "../../utilities/myData";
 import CustomButton from "../Button/CustomButton";
+import ButtonMailto from "./Mailto";
 
 const Header = (props) => {
   const pathName = props.location && props.location.pathname;
-
 
   return (
     <Navbar expand="lg" sticky="top" className="header">
@@ -73,7 +73,15 @@ const Header = (props) => {
             </a>
           ))}
         </div>
-        <CustomButton text={"E-mail"} icon={<Telegram />} /* onClick={window.open(`mailto:${myData.email}?subject=Subject&body=Body%20goes%20here`)} */ /> {/* myData.email */}
+        <CustomButton
+          text={
+            <ButtonMailto
+              label="E-Mail"
+              mailto="mailto:nenadvuk.rs@gmail.com"
+            />
+          }
+          icon={<Telegram />}
+        />
       </Navbar.Collapse>
     </Navbar>
   );

@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: .2s;
+  transition: 0.2s;
   cursor: pointer;
   background-color: var(--main-color);
   font-weight: 500;
@@ -13,12 +13,18 @@
   outline: none;
 }
 
-.btn-container>a {
+a {
   text-decoration: none;
+  color: #000;
 }
+
+/* .btn-container>a {
+  text-decoration: none;
+} */
 
 .custom_btn:hover {
   background-color: rgb(252, 182, 54);
+  color: #000;
 }
 
 .btn_icon_container {
@@ -33,7 +39,7 @@
   justify-content: center;
 }
 
-.btn_icon_container>.MuiSvgIcon-root {
+.btn_icon_container > .MuiSvgIcon-root {
   font-size: 16px;
 }
 
