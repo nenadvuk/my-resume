@@ -126,7 +126,7 @@ const myData = {
     {
       image: "/card-images/Lucky-Six.png",
       title: "Lucky Six Game",
-      caption: "Feeling lucky? Let's find out",
+      caption: "Feeling lucky? Do You have your lucky numbers? ",
       description:
         "Lucky 6 is a popular dynamic and exciting live-game where 35 numbers are drawn at random from the 48 lottery balls in the lottery machine",
       link: "https://nenadvuk.github.io/lucky-six-game/"
@@ -134,7 +134,7 @@ const myData = {
     {
       image: "/card-images/Programming.png",
       title: "Škola Programiranja",
-      caption: "Programming School website",
+      caption: "Programming School website, Ruby-N",
       description:
         "One of my first projects, which I did for the final exam at Code Academy",
       link: "https://nenadvuk.github.io/skola-programiranja-ruby-n/"
@@ -150,8 +150,8 @@ const myData = {
     {
       image: "/card-images/WebSite.png",
       title: "VUE Website",
-      caption: "Site developed by Vue.js",
-      description: "Site developed by Vue.js",
+      caption: "Application developed by Vue.js",
+      description: "Application developed by Vue.js",
       link: "https://nenadvuk.github.io/#/"
     },
     {

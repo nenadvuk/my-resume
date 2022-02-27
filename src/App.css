@@ -37,6 +37,8 @@
 
 .main_content {
   background-color: whitesmoke;
+  /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(230, 104, 66, 0.596)); */
+
   height: 642px;
   border-radius: 8px;
   margin-bottom: 30px;
