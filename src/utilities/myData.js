@@ -172,19 +172,19 @@ const myData = {
     {
       image: "/hobbies-images/photographer.jpg",
       title: "Photography",
-      margin: "75px",
+      margin: "100px",
       delay: "500ms"
     },
     {
       image: "/hobbies-images/chessboard.jpg",
       title: "Chess",
-      margin: "150px",
+      margin: "200px",
       delay: "750ms"
     },
     {
       image: "/hobbies-images/shooting.jpg",
       title: "Sports shooting",
-      margin: "225px",
+      margin: "300px",
       delay: "1000ms"
     }
   ]
