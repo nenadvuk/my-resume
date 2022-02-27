@@ -24,11 +24,17 @@
 
 .header_home {
   background-color: var(--main-color);
+  transition: 0.2s;
   padding: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 8px;
+}
+
+.header_home:hover{
+  background-color: rgb(252, 182, 54);
+  color: #000;
 }
 
 .header_left {
