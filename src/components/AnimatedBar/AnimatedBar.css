@@ -18,7 +18,7 @@
   height: 100%;
   width: 0;
   opacity: 0;
-  transition: 1.2s ease ;
+  transition: .8s ease ;
 }
 
 @media only screen and (max-width: 768px) {

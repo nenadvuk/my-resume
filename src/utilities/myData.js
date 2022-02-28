@@ -166,23 +166,27 @@ const myData = {
   hobbies: [
     {
       image: "/hobbies-images/running-man.jpg",
+      video:"/hobbies-videos/running.mp4",
       title: "Athletics-running",
       delay: "250ms"
     },
     {
       image: "/hobbies-images/photographer.jpg",
+      video:"/hobbies-videos/photography.mp4",
       title: "Photography",
       margin: "100px",
       delay: "500ms"
     },
     {
       image: "/hobbies-images/chessboard.jpg",
+      video:"/hobbies-videos/chess.mp4",
       title: "Chess",
       margin: "200px",
       delay: "750ms"
     },
     {
       image: "/hobbies-images/shooting.jpg",
+      video:"/hobbies-videos/shooting.mp4",
       title: "Sports shooting",
       margin: "300px",
       delay: "1000ms"
