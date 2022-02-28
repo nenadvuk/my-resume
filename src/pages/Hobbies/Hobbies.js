@@ -34,13 +34,25 @@ const Hobbies = () => {
               className="fadeInUp hobby-card"
             >
               <CardActionArea>
-                <CardMedia
-                  component="img"
-                  className="hobby-card_image"
-                  image={hobby.image}
-                  alt={hobby.title}
-                  title={hobby.title}
-                />
+                {isTabletOrMobile ? (
+                  <CardMedia
+                    component="video"
+                    autoPlay
+                    loop
+                    src={hobby.video}
+                    alt={hobby.title}
+                    title={hobby.title}
+                  />
+                ) : (
+                  <CardMedia
+                    component="img"
+                    className="hobby-card_image"
+                    image={hobby.image}
+                    alt={hobby.title}
+                    title={hobby.title}
+                  />
+                )}
+
                 <CardContent>{hobby.title}</CardContent>
               </CardActionArea>
             </Card>
