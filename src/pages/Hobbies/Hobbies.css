@@ -3,9 +3,6 @@
   box-shadow: 0 0 15px rgba(73, 71, 71, 0.5);
 }
 
-.hobby-card_image:hover {
-  /* transition: all 0.3s !important;
-  transform: scale(1.2);
-  overflow: hidden;
-  backface-visibility: hidden; */
-}
+/* .video-card{
+  max-width: 300px;
+} */

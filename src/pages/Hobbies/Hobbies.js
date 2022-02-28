@@ -12,7 +12,7 @@ import { useMediaQuery } from "react-responsive";
 
 const Hobbies = () => {
   const isTabletOrMobile = useMediaQuery({ query: "(min-width: 991px)" });
-
+  const isMobile = useMediaQuery({ query: "(min-width: 768px)" });
   return (
     <Grid container className="section padding_bottom_45">
       <Grid item className="section_title margin_bottom_30">
@@ -34,8 +34,9 @@ const Hobbies = () => {
               className="fadeInUp hobby-card"
             >
               <CardActionArea>
-                {isTabletOrMobile ? (
+                {isMobile ? (
                   <CardMedia
+                    // className="video-card"
                     component="video"
                     autoPlay
                     loop
@@ -46,13 +47,11 @@ const Hobbies = () => {
                 ) : (
                   <CardMedia
                     component="img"
-                    className="hobby-card_image"
                     image={hobby.image}
                     alt={hobby.title}
                     title={hobby.title}
                   />
                 )}
-
                 <CardContent>{hobby.title}</CardContent>
               </CardActionArea>
             </Card>
