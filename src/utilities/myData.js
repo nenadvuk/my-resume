@@ -140,12 +140,12 @@ const myData = {
       link: "https://nenadvuk.github.io/skola-programiranja-ruby-n/"
     },
     {
-      image: "/card-images/Lottery.png",
-      title: "Lottery Game",
-      caption: "One of the most popular games of chance",
+      image: "/card-images/WWM.png",
+      title: "World Wide Movies",
+      caption: "Find ratings and reviews for the newest movies and TV shows",
       description:
-        "You have a 1 in 15,380,937 chance of winning the lottery. Feeling lucky? Let's find out",
-      link: "https://nenadvuk.github.io/lottery-game/"
+        "Website created with react.js, using styled components and material-ui. API I've used is from TMDB",
+      link: "https://world-wide-movies.netlify.app/"
     },
     {
       image: "/card-images/WebSite.png",
