@@ -124,12 +124,12 @@ const myData = {
       link: "https://nenadvuk.github.io/countries-quiz/"
     },
     {
-      image: "/card-images/Lucky-Six.png",
-      title: "Lucky Six Game",
-      caption: "Feeling lucky? Do You have your lucky numbers? ",
+      image: "/card-images/WWM.png",
+      title: "World Wide Movies",
+      caption: "Find ratings and reviews for the newest movies and TV shows",
       description:
-        "Lucky 6 is a popular dynamic and exciting live-game where 35 numbers are drawn at random from the 48 lottery balls in the lottery machine",
-      link: "https://nenadvuk.github.io/lucky-six-game/"
+        "Website created with react.js, using styled components and material-ui. API I've used is from TMDB",
+      link: "https://world-wide-movies.netlify.app/"
     },
     {
       image: "/card-images/Programming.png",
@@ -140,12 +140,12 @@ const myData = {
       link: "https://nenadvuk.github.io/skola-programiranja-ruby-n/"
     },
     {
-      image: "/card-images/WWM.png",
-      title: "World Wide Movies",
-      caption: "Find ratings and reviews for the newest movies and TV shows",
+      image: "/card-images/Lucky-Six.png",
+      title: "Lucky Six Game",
+      caption: "Feeling lucky? Do You have your lucky numbers? ",
       description:
-        "Website created with react.js, using styled components and material-ui. API I've used is from TMDB",
-      link: "https://world-wide-movies.netlify.app/"
+        "Lucky 6 is a popular dynamic and exciting live-game where 35 numbers are drawn at random from the 48 lottery balls in the lottery machine",
+      link: "https://nenadvuk.github.io/lucky-six-game/"
     },
     {
       image: "/card-images/WebSite.png",
@@ -166,27 +166,27 @@ const myData = {
   hobbies: [
     {
       image: "/hobbies-images/running-man.jpg",
-      video:"/hobbies-videos/running.mp4",
+      video: "/hobbies-videos/running.mp4",
       title: "Athletics-running",
       delay: "250ms"
     },
     {
       image: "/hobbies-images/photographer.jpg",
-      video:"/hobbies-videos/photography.mp4",
+      video: "/hobbies-videos/photography.mp4",
       title: "Photography",
       margin: "100px",
       delay: "500ms"
     },
     {
       image: "/hobbies-images/chessboard.jpg",
-      video:"/hobbies-videos/chess.mp4",
+      video: "/hobbies-videos/chess.mp4",
       title: "Chess",
       margin: "200px",
       delay: "750ms"
     },
     {
       image: "/hobbies-images/shooting.jpg",
-      video:"/hobbies-videos/shooting.mp4",
+      video: "/hobbies-videos/shooting.mp4",
       title: "Sports shooting",
       margin: "300px",
       delay: "1000ms"
@@ -195,3 +195,10 @@ const myData = {
 };
 
 export default myData;
+
+/* image: "/card-images/Lucky-Six.png",
+      title: "Lucky Six Game",
+      caption: "Feeling lucky? Do You have your lucky numbers? ",
+      description:
+        "Lucky 6 is a popular dynamic and exciting live-game where 35 numbers are drawn at random from the 48 lottery balls in the lottery machine",
+      link: "https://nenadvuk.github.io/lucky-six-game/" */
