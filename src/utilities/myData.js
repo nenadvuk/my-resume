@@ -125,11 +125,11 @@ const myData = {
     },
     {
       image: "/card-images/WWM.png",
-      title: "World Wide Movies",
+      title: "Movizilla",
       caption: "Find ratings and reviews for the newest movies and TV shows",
       description:
         "Website created with react.js, using styled components and material-ui. API I've used is from TMDB",
-      link: "https://world-wide-movies.netlify.app/"
+      link: "https://movizilla.netlify.app/"
     },
     {
       image: "/card-images/Programming.png",
@@ -195,10 +195,3 @@ const myData = {
 };
 
 export default myData;
-
-/* image: "/card-images/Lucky-Six.png",
-      title: "Lucky Six Game",
-      caption: "Feeling lucky? Do You have your lucky numbers? ",
-      description:
-        "Lucky 6 is a popular dynamic and exciting live-game where 35 numbers are drawn at random from the 48 lottery balls in the lottery machine",
-      link: "https://nenadvuk.github.io/lucky-six-game/" */
