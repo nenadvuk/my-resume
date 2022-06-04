@@ -125,11 +125,11 @@ const myData = {
     },
     {
       image: "/card-images/WWM.png",
-      title: "Movizilla",
-      caption: "Find ratings and reviews for the newest movies and TV shows",
+      title: "World Wide Movies",
+      caption: "Find ratings and reviews for the latest movies and TV shows",
       description:
         "Website created with react.js, using styled components and material-ui. API I've used is from TMDB",
-      link: "https://movizilla.netlify.app/"
+      link: "https://world-wide-movies.netlify.app/"
     },
     {
       image: "/card-images/Programming.png",
